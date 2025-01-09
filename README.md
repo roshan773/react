@@ -1,1 +1,1 @@
-<img src="React\demo.png" alt="demo">
+<img src="demo.png" alt="demo">
