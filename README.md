@@ -2,4 +2,4 @@
 <img src="demo.png" alt="demo">
 
 <h1>Reactpage</h1>
-<img src="reactpage" alt="reactpage">
+<img src="reactpage.png" alt="reactpage">
