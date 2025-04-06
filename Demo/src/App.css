@@ -1,0 +1,133 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Centering content */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #282c34;
+}
+
+/* Styling the image */
+.light-image {
+  width: 200px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Add a slight bounce effect when toggling */
+.light-image:hover {
+  transform: scale(1.05);
+}
+
+/* Styling the button */
+.toggle-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(135deg, #ff7f50, #ff4500);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.toggle-btn:hover {
+  background: linear-gradient(135deg, #ff4500, #ff7f50);
+  transform: scale(1.1);
+}
+
+/* Button click effect */
+.toggle-btn:active {
+  transform: scale(0.95);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 20px 20px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+
+.light-image{
+  width: 600px; 
+  height: 600px; 
+  object-fit: cover;
+}
+
+.light-on{
+  background-color: #909090;
+  width: 100%;
+}
+
+.light-off{
+  background-color: #121212;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  transition: background-color 0.5s ease-in-out;
+}
