@@ -1,0 +1,28 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    border-bottom: 4px solid #179e43;
+    transition: 0.3s all ease-in-out;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
+    background-color: #19d256;
+    cursor: pointer;
+}
+
+.button:active {
+    box-shadow: 0 0 rgba(0, 0, 0, 0.4);
+    border-bottom-width: 2px;
+    transform: translateY(2px);
+}
+
+/* card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+} */
