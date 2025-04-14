@@ -1,11 +1,13 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Footer from '../Components/Footer';
+import { useNavigate } from 'react-router-dom';
 
 const Product = () => {
   const [data, setdata] = useState([]);
   const [loading, setloading] = useState(false);
   const [error, seterror] = useState(null);
+  const navigate = useNavigate();
 
   const fetchdata = () => {
     setloading(true);
@@ -22,7 +24,7 @@ const Product = () => {
   };
 
   const handlesubmit = (id) => {
-    alert(`Id of product is ${id}`)
+    navigate(`/description/${id}`)
   }
 
   useEffect(() => {

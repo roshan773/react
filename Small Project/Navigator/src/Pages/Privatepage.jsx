@@ -6,9 +6,9 @@ const PrivatePage = ({ children }) => {
     const { token } = useContext(AuthContext);
 
     if (!token) {
-        return <Navigate to="/login" />;  // Redirect to login if no token
+        return <Navigate to="/login" />; 
     } else {
-        return children;  // Show protected content if token exists
+        return children; 
     }
 };
 

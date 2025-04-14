@@ -19,7 +19,7 @@ const AllROutes = () => {
         </PrivatePage>
       } />
       <Route path='/project' element={<Project />} />
-      <Route path='/description' element={<Description />} />
+      <Route path='/description/:id' element={<Description />} />
       <Route path='/login' element={<Login />} />
     </Routes>
   )
