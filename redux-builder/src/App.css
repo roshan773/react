@@ -1,0 +1,20 @@
+/* index.css or App.css */
+.light_theme {
+  background-color: white;
+  color: black;
+  height: 200px;
+  width: 100%;
+  border: 2px solid #000000;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.dark_theme {
+  background-color: black;
+  color: white;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  border: 1px solid whitesmoke;
+}
